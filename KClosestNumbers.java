@@ -44,7 +44,7 @@ class customComparator implements Comparator < Pair > {
     Integer n2 = p2.absValue;
     int value = n1.compareTo(n2);
     if (value > 0) {
-      return -11;
+      return -1;
     } else if (value < 0) {
       return 1;
     } else {
