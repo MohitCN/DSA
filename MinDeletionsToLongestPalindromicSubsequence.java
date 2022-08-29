@@ -4,6 +4,8 @@
 //Remove characters 'e' and 'd'
 //Resultant string will be 'abcba'
 //which is a palindromic string
+//reverse the input and calculate count of LCS with inoutStr and its reverse  
+//and substract it from inputStr.length(). that is ans.
 
 public class MinDeletionsToLongestPalindromicSubsequence {
   static int LCS(String s1, String s2, int n) {
